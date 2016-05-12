@@ -1,0 +1,6 @@
+[submodule "cordova-cli"]
+	path = cordova-cli
+	url = https://github.com/hgross/cordova-cli
+[submodule "cordova-lib"]
+	path = cordova-lib
+	url = https://github.com/hgross/cordova-lib
