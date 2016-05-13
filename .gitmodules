@@ -1,0 +1,3 @@
+[submodule "cordova-xamarin-android"]
+	path = cordova-xamarin-android
+	url = https://bitbucket.org/henna/cordova-xamarin-android

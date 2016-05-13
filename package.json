@@ -1,0 +1,32 @@
+{
+  "name": "cordova-xamarin",
+  "version": "1.0.0",
+  "description": "Xamarin Cordova CLI",
+  "main": "index.js",
+  "dependencies": {
+    "cordova": "^6.1.1",
+    "cordova-lib": "^6.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts" :
+  { 
+    "postinstall" : "node scripts/modifyPlatforms.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgross/cordova-xamarin.git"
+  },
+  "keywords": [
+    "cordova",
+    "xamarin"
+  ],
+  "author": "Zuehlke",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/hgross/cordova-xamarin/issues"
+  },
+  "homepage": "https://github.com/hgross/cordova-xamarin#readme"
+}
