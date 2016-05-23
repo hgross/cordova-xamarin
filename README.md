@@ -2,6 +2,7 @@
 ```
 # get modified cli
 $ git clone --recursive https://github.com/hgross/cordova-xamarin
+$ cd cordova-xamarin
 $ git submodule update --init (do this only if you did not specify --recursive on the git clone command above)
 $ npm install
 $ cd cordova-xamarin-android
